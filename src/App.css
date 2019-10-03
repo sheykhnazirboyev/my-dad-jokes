@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -20,3 +20,20 @@
 .App-link {
   color: #09d3ac;
 }
+ */
+
+ .App
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #78909c;
+    background: linear-gradient(
+    135deg,
+    rgba(179, 229, 252, 1) 0%,
+    rgba(179, 229, 252, 1) 50%,
+    rgba(240, 98, 146, 1) 50%,
+    rgba(240, 98, 146, 1) 100%
+  );
+ }
